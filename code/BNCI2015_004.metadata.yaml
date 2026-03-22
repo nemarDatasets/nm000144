@@ -1,0 +1,222 @@
+_dataset:
+  class: BNCI2015_004
+  code: BNCI2015-004
+  doi: 10.1371/journal.pone.0123727
+  interval:
+  - 0
+  - 4
+  n_subjects: 9
+  paradigm: imagery
+acquisition:
+  auxiliary_channels:
+    eog_channels: 2
+    eog_type:
+    - horizontal
+    - vertical
+    has_eog: true
+  cap_manufacturer: g.tec
+  channel_types:
+    eeg: 30
+  electrode_type: g.LADYbird active electrodes
+  filters: 0.5-100 Hz bandpass, 50 Hz notch
+  ground: left and right mastoid
+  hardware: g.tec
+  line_freq: 50.0
+  montage: 10-20
+  n_channels: 30
+  reference: left and right mastoid
+  sampling_rate: 256.0
+  sensor_type: active electrode
+  sensors:
+  - AFz
+  - F7
+  - F3
+  - Fz
+  - F4
+  - F8
+  - FC3
+  - FCz
+  - FC4
+  - T3
+  - C3
+  - Cz
+  - C4
+  - T4
+  - CP3
+  - CPz
+  - CP4
+  - P7
+  - P5
+  - P3
+  - P1
+  - Pz
+  - P2
+  - P4
+  - P6
+  - P8
+  - PO3
+  - PO4
+  - O1
+  - O2
+bci_application:
+  applications:
+  - communication
+  - motor_function_restoration
+  environment: rehabilitation center
+cross_validation:
+  cv_folds: 10
+  cv_method: 10-fold cross-validation
+  evaluation_type:
+  - within_session
+  - cross_session
+data_processed: true
+data_structure:
+  n_blocks: 8
+  n_trials: 40
+  trials_context: per_class_per_day
+documentation:
+  contact_info:
+  - reinhold.scherer@tugraz.at
+  country: Spain
+  data_url: https://bnci-horizon-2020.eu/database/data-sets
+  doi: 10.1371/journal.pone.0123727
+  ethics_approval:
+  - Comitè d'Ètica Assistencial de l'Institut Guttman
+  funding:
+  - FP7 EU Research Projects BrainAble (No. 247447)
+  - ABC (No. 287774)
+  - BackHome (No. 288566)
+  institution: Institut Guttmann
+  institution_address: 08916 Badalona, Barcelona, Spain
+  institution_department: Institut Universitari de Neurorehabilitació adscrit a la UAB
+  investigators:
+  - Reinhold Scherer
+  - Josef Faller
+  - Elisabeth V. C. Friedrich
+  - Eloy Opisso
+  - Ursula Costa
+  - Andrea Kübler
+  - Gernot R. Müller-Putz
+  keywords:
+  - brain-computer interface
+  - motor imagery
+  - mental tasks
+  - EEG
+  - CNS tissue damage
+  - stroke
+  - spinal cord injury
+  - binary classification
+  license: CC-BY-NC-ND-4.0
+  publication_year: 2015
+  repository: BNCI Horizon 2020
+  senior_author: Reinhold Scherer
+experiment:
+  class_labels:
+  - math
+  - letter
+  - rotation
+  - count
+  - baseline
+  events:
+    baseline: 5
+    count: 4
+    letter: 2
+    math: 1
+    rotation: 3
+  feedback_type: none
+  instructions: 'Participants were asked to continuously perform the specified mental imagery task for 7 seconds. For MI:
+    kinesthetic imagination of movement (e.g., squeezing a rubber ball for hand, dorsiflexion for feet). For WORD: generate
+    words beginning with presented letter. For SUB: successive elementary subtractions. For NAV: spatial navigation.'
+  mode: screening
+  n_classes: 5
+  paradigm: imagery
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_type: visual cue
+  study_design: 'Five mental tasks: word association (WORD), mental subtraction (SUB), spatial navigation (NAV), motor imagery
+    of right hand (HAND), and motor imagery of both feet (FEET). Cue-guided paradigm with 7 seconds of continuous mental imagery
+    per trial.'
+  synchronicity: synchronous
+  tasks:
+  - word_association
+  - mental_subtraction
+  - spatial_navigation
+  - right_hand_imagery
+  - feet_imagery
+  trial_duration: 11.0
+file_format: gdf
+paradigm_specific:
+  cue_duration_s: 1.0
+  detected_paradigm: motor_imagery
+  imagery_duration_s: 7.0
+  imagery_tasks:
+  - right_hand
+  - feet
+  - word_association
+  - mental_subtraction
+  - spatial_navigation
+participants:
+  age_max: 57
+  age_mean: 38.0
+  age_min: 20
+  age_std: 10.0
+  bci_experience: naive
+  clinical_population: stroke and spinal cord injury
+  gender:
+    female: 7
+    male: 2
+  handedness: not specified
+  health_status: CNS tissue damage
+  n_subjects: 9
+  species: human
+performance:
+  HAND_vs_FEET_GMAC: 64.0
+  SUB_vs_FEET_GMAC: 77.0
+  WORD_vs_HAND_GMAC: 70.0
+  accuracy_percent: 77.0
+  best_task_pair_GMAC: 77.0
+  between_day_WORD_vs_HAND_GMAC: 82.0
+preprocessing:
+  artifact_methods:
+  - manual artifact rejection based on EOG
+  bandpass:
+    high_cutoff_hz: 100.0
+    low_cutoff_hz: 0.5
+  data_state: filtered
+  highpass_hz: 0.5
+  lowpass_hz: 100.0
+  notch_hz:
+  - 50
+  preprocessing_applied: true
+  preprocessing_steps:
+  - bandpass filter
+  - notch filter
+  - artifact rejection
+  re_reference: left and right mastoid
+runs_per_session: 1
+sessions_per_subject: 2
+signal_processing:
+  classifiers:
+  - LDA
+  feature_extraction:
+  - bandpower
+  - temporal features
+  frequency_bands:
+    beta:
+    - 13
+    - 30
+    mu:
+    - 8
+    - 12
+tags:
+  modality:
+  - Motor
+  - Cognitive
+  pathology:
+  - Stroke
+  - Spinal Cord Injury
+  - CNS Damage
+  type:
+  - Motor
+  - Cognitive

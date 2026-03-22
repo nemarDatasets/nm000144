@@ -1,0 +1,45 @@
+{
+	"TaskName": "imagery",
+	"Manufacturer": "g.tec",
+	"PowerLineFrequency": 50.0,
+	"SamplingFrequency": 256.0,
+	"SoftwareFilters": {
+		"preprocessing_steps": {
+			"Description": "bandpass filter, notch filter, artifact rejection"
+		}
+	},
+	"RecordingDuration": 2794.78125,
+	"RecordingType": "continuous",
+	"EEGReference": "left and right mastoid",
+	"EEGGround": "left and right mastoid",
+	"EEGPlacementScheme": "10-20 system",
+	"EEGChannelCount": 30,
+	"EOGChannelCount": 0,
+	"ECGChannelCount": 0,
+	"EMGChannelCount": 0,
+	"TriggerChannelCount": 0,
+	"ManufacturersModelName": "g.tec",
+	"CapManufacturer": "g.tec",
+	"HardwareFilters": {
+		"Bandpass": {
+			"low_cutoff_hz": 0.5,
+			"high_cutoff_hz": 100.0
+		},
+		"Notch": {
+			"CutoffFrequency": [
+				50
+			]
+		}
+	},
+	"TaskDescription": "Five mental tasks: word association (WORD), mental subtraction (SUB), spatial navigation (NAV), motor imagery of right hand (HAND), and motor imagery of both feet (FEET). Cue-guided paradigm with 7 seconds of continuous mental imagery per trial. Trial duration: 11.0s, cue: 1.0s, imagery: 7.0s.",
+	"Instructions": "Participants were asked to continuously perform the specified mental imagery task for 7 seconds. For MI: kinesthetic imagination of movement (e.g., squeezing a rubber ball for hand, dorsiflexion for feet). For WORD: generate words beginning with presented letter. For SUB: successive elementary subtractions. For NAV: spatial navigation.",
+	"CogAtlasID": "https://www.cognitiveatlas.org/task/id/trm_4c8a834779883/",
+	"InstitutionName": "Institut Guttmann",
+	"InstitutionAddress": "08916 Badalona, Barcelona, Spain",
+	"InstitutionalDepartmentName": "Institut Universitari de Neurorehabilitaci\u00f3 adscrit a la UAB",
+	"CapManufacturersModelName": "n/a",
+	"SubjectArtefactDescription": "n/a",
+	"DeviceSerialNumber": "n/a",
+	"Description": "EEG recording.",
+	"MISCChannelCount": 0
+}
