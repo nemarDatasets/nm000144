@@ -1,0 +1,100 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Reinhold Scherer": {},
+    "Josef Faller": {},
+    "Elisabeth V. C. Friedrich": {},
+    "Eloy Opisso": {},
+    "Ursula Costa": {},
+    "Andrea Kübler": {},
+    "Gernot R. Müller-Putz": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1371/journal.pone.0123727",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000144",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000144",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "European Commission",
+      "award_number": "247447",
+      "award_title": "BrainAble"
+    },
+    {
+      "funder_name": "European Commission",
+      "award_number": "287774",
+      "award_title": "ABC"
+    },
+    {
+      "funder_name": "European Commission",
+      "award_number": "288566",
+      "award_title": "BackHome"
+    }
+  ],
+  "title": "BNCI 2015-004 Mental tasks dataset",
+  "license": "CC-BY-NC-ND-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "1.2 GB (21 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".html",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "This EEG dataset comprises recordings from 9 individuals with central nervous system damage (stroke and spinal cord injury) performing five mental imagery tasks: word association, mental subtraction, spatial navigation, right-hand motor imagery, and feet motor imagery. Participants completed two sessions with visual cue-guided trials lasting 11 seconds each, including 7 seconds of continuous mental imagery. The dataset contains preprocessed EEG data acquired at 256 Hz from 30 electrodes using g.tec hardware, designed to support brain-computer interface research and rehabilitation applications.",
+  "methods_description": "EEG data were acquired at 256 Hz sampling rate from 30 active electrodes (g.LADYbird) arranged in 10-20 montage, referenced to bilateral mastoids. Online filtering included 0.5-100 Hz bandpass and 50 Hz notch filters. Preprocessing involved bandpass filtering (0.5-100 Hz), notch filtering at 50 Hz, and manual artifact rejection based on EOG recordings. Five mental imagery tasks were presented as visual cues with 7-second imagery periods per trial.",
+  "keywords": [
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "mental tasks"
+    },
+    {
+      "term": "Stroke",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D020521"
+    },
+    {
+      "term": "spinal cord injury"
+    },
+    {
+      "term": "rehabilitation"
+    }
+  ],
+  "source_hash": "a2fa20141c21078d23182e41063361df4be25540e8f967316a784039ca22fe2d"
+}
