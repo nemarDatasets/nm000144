@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000144-blue)](https://doi.org/10.82901/nemar.nm000144)
+
 # BNCI 2015-004 Mental tasks dataset
 
 BNCI 2015-004 Mental tasks dataset.
