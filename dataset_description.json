@@ -1,52 +1,54 @@
 {
-	"Name": "BNCI 2015-004 Mental tasks dataset",
-	"BIDSVersion": "1.9.0",
-	"HEDVersion": "8.4.0",
-	"DatasetType": "derivative",
-	"License": "CC-BY-NC-ND-4.0",
-	"Authors": [
-		"Reinhold Scherer",
-		"Josef Faller",
-		"Elisabeth V. C. Friedrich",
-		"Eloy Opisso",
-		"Ursula Costa",
-		"Andrea K\u00fcbler",
-		"Gernot R. M\u00fcller-Putz"
-	],
-	"Funding": [
-		"FP7 EU Research Projects BrainAble (No. 247447)",
-		"ABC (No. 287774)",
-		"BackHome (No. 288566)"
-	],
-	"EthicsApprovals": [
-		"Comit\u00e8 d'\u00c8tica Assistencial de l'Institut Guttman"
-	],
-	"ReferencesAndLinks": [
-		"https://bnci-horizon-2020.eu/database/data-sets"
-	],
-	"GeneratedBy": [
-		{
-			"CodeURL": "https://github.com/NeuroTechX/moabb",
-			"Name": "moabb",
-			"Description": "Mother of All BCI Benchmarks",
-			"Version": "1.5.0"
-		}
-	],
-	"SourceDatasets": [
-		{
-			"DOI": "10.1371/journal.pone.0123727",
-			"URL": "https://bnci-horizon-2020.eu/database/data-sets"
-		}
-	],
-	"Keywords": [
-		"brain-computer interface",
-		"motor imagery",
-		"mental tasks",
-		"EEG",
-		"CNS tissue damage",
-		"stroke",
-		"spinal cord injury",
-		"binary classification"
-	],
-	"PublicationYear": 2015
+  "Name": "BNCI 2015-004 Mental tasks dataset",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-NC-ND-4.0",
+  "Authors": [
+    "Reinhold Scherer",
+    "Josef Faller",
+    "Elisabeth V. C. Friedrich",
+    "Eloy Opisso",
+    "Ursula Costa",
+    "Andrea Kübler",
+    "Gernot R. Müller-Putz"
+  ],
+  "Funding": [
+    "FP7 EU Research Projects BrainAble (No. 247447)",
+    "ABC (No. 287774)",
+    "BackHome (No. 288566)"
+  ],
+  "EthicsApprovals": [
+    "Comitè d'Ètica Assistencial de l'Institut Guttman"
+  ],
+  "ReferencesAndLinks": [
+    "https://bnci-horizon-2020.eu/database/data-sets"
+  ],
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.1371/journal.pone.0123727",
+      "URL": "https://bnci-horizon-2020.eu/database/data-sets"
+    }
+  ],
+  "Keywords": [
+    "brain-computer interface",
+    "motor imagery",
+    "mental tasks",
+    "EEG",
+    "CNS tissue damage",
+    "stroke",
+    "spinal cord injury",
+    "binary classification"
+  ],
+  "PublicationYear": 2015,
+  "DatasetDOI": "10.82901/nemar.nm000144",
+  "Version": "1.0.0"
 }
