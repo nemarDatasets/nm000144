@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "BNCI 2015-004 Mental tasks dataset",
+  "description": "This EEG dataset comprises recordings from 9 individuals with CNS tissue damage (stroke and spinal cord injury) performing five mental imagery tasks: word association, mental subtraction, spatial navigation, and motor imagery of the right hand and feet. Data were collected across two sessions using 30-channel EEG at 256 Hz with visual cue-guided paradigm. The dataset includes preprocessed signals with artifact rejection and is designed for brain-computer interface research and motor imagery classification.",
+  "methods_description": "EEG data were acquired from 30 active electrodes (g.LADYbird, g.tec) using 10-20 montage with mastoid reference and ground. Sampling rate was 256 Hz. Online filtering included 0.5-100 Hz bandpass and 50 Hz notch filters. Preprocessing involved bandpass filtering, notch filtering, and manual artifact rejection based on EOG. Participants performed five mental tasks (word association, mental subtraction, spatial navigation, right hand motor imagery, feet motor imagery) in a cue-guided paradigm with 7 seconds of continuous imagery per trial.",
+  "license": "CC-BY-NC-ND-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Reinhold Scherer": {},
     "Josef Faller": {},
@@ -10,6 +15,29 @@
     "Andrea Kübler": {},
     "Gernot R. Müller-Putz": {}
   },
+  "keywords": [
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "mental tasks"
+    },
+    {
+      "term": "stroke"
+    },
+    {
+      "term": "spinal cord injury"
+    },
+    {
+      "term": "motor imagery classification"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.1371/journal.pone.0123727",
@@ -22,14 +50,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000144",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000144",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -49,52 +77,23 @@
       "award_title": "BackHome"
     }
   ],
-  "title": "BNCI 2015-004 Mental tasks dataset",
-  "license": "CC-BY-NC-ND-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "1.2 GB (21 files)"
+    "2.9 GB (30 files)"
   ],
   "formats": [
     ".bdf",
     ".html",
     ".json",
+    ".mat",
     ".md",
     ".tsv",
     ".yaml",
     ".yml"
   ],
-  "description": "This EEG dataset comprises recordings from 9 individuals with central nervous system damage (stroke and spinal cord injury) performing five mental imagery tasks: word association, mental subtraction, spatial navigation, right-hand motor imagery, and feet motor imagery. Participants completed two sessions with visual cue-guided trials lasting 11 seconds each, including 7 seconds of continuous mental imagery. The dataset contains preprocessed EEG data acquired at 256 Hz from 30 electrodes using g.tec hardware, designed to support brain-computer interface research and rehabilitation applications.",
-  "methods_description": "EEG data were acquired at 256 Hz sampling rate from 30 active electrodes (g.LADYbird) arranged in 10-20 montage, referenced to bilateral mastoids. Online filtering included 0.5-100 Hz bandpass and 50 Hz notch filters. Preprocessing involved bandpass filtering (0.5-100 Hz), notch filtering at 50 Hz, and manual artifact rejection based on EOG recordings. Five mental imagery tasks were presented as visual cues with 7-second imagery periods per trial.",
-  "keywords": [
-    {
-      "term": "brain-computer interface"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "mental tasks"
-    },
-    {
-      "term": "Stroke",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D020521"
-    },
-    {
-      "term": "spinal cord injury"
-    },
-    {
-      "term": "rehabilitation"
-    }
-  ],
-  "source_hash": "a2fa20141c21078d23182e41063361df4be25540e8f967316a784039ca22fe2d"
+  "source_hash": "e819645203b18584be48f0ec1d445c876a7994c4b579d0ab5c6f61d3dc2d294d"
 }
