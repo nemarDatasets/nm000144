@@ -1,0 +1,60 @@
+{
+ "dataset": "nm000144",
+ "moabb_class": "BNCI2015_004",
+ "moabb_version_used": "1.5.0",
+ "retrieved": "2026-08-11",
+ "retrieved_by": "moabb.datasets.BNCI2015_004.data_path()",
+ "upstream_cache_root": "/expanse/lustre/scratch/bpinto/temp_project/sourcedata_staging/mne_data/MNE-bnci-data/~bci/database/004-2015",
+ "license": "CC-BY-NC-ND-4.0",
+ "doi": "10.1371/journal.pone.0123727",
+ "naming": "upstream_filenames_restored",
+ "n_files": 9,
+ "total_bytes": 1783624647,
+ "files": [
+  {
+   "file": "A.mat",
+   "bytes": 203184515,
+   "sha256": "6645c760a2bddfa7a0fa6b0ad7dcb6471ef8d05581ab4d25c976f5d25ba223e1"
+  },
+  {
+   "file": "C.mat",
+   "bytes": 200098362,
+   "sha256": "e6e1de45ad3f4fe694a90425e0638e367febf104920af72483701c501fe0546d"
+  },
+  {
+   "file": "D.mat",
+   "bytes": 200299128,
+   "sha256": "dd3103f9e26a063c05833dff9a02a0fdbbd9b8bf20fed6fa7e8181b4c2e5154c"
+  },
+  {
+   "file": "E.mat",
+   "bytes": 186865952,
+   "sha256": "6fe5167d78603d9af5151e06dd35cb7d9f816ebb12d6493dcddcf9f4043b1750"
+  },
+  {
+   "file": "F.mat",
+   "bytes": 201739721,
+   "sha256": "1628735e77a56a627165dd61ca4684e7bb56d9fdc657e12bae2b13584f592dc0"
+  },
+  {
+   "file": "G.mat",
+   "bytes": 201951865,
+   "sha256": "7c2fccc2b2ed497c6dcbd6edf6cd5cd7c82a21cbbfc79fea9cc65445fe5c3071"
+  },
+  {
+   "file": "H.mat",
+   "bytes": 187796407,
+   "sha256": "c0eb04e5ec586f214be41ff09d4e587206b37b3d9e43b2f0010f582683559b6a"
+  },
+  {
+   "file": "J.mat",
+   "bytes": 200655101,
+   "sha256": "a7a4a12d6a0abea401926ac4ffa858f9ed0ca3af5dbadc7e0d41506a83cc7abf"
+  },
+  {
+   "file": "L.mat",
+   "bytes": 201033596,
+   "sha256": "a172228bd1c23e9cbedcd5f2fd1a5acd8ba9686e43b67a517a703f3de92cf6f4"
+  }
+ ]
+}
