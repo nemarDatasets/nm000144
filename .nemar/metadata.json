@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BNCI 2015-004 Mental tasks dataset",
-  "description": "This EEG dataset comprises recordings from 9 individuals with CNS tissue damage (stroke and spinal cord injury) performing five mental imagery tasks: word association, mental subtraction, spatial navigation, and motor imagery of the right hand and feet. Data were collected across two sessions using 30-channel EEG at 256 Hz with visual cue-guided paradigm. The dataset includes preprocessed signals with artifact rejection and is designed for brain-computer interface research and motor imagery classification.",
-  "methods_description": "EEG data were acquired from 30 active electrodes (g.LADYbird, g.tec) using 10-20 montage with mastoid reference and ground. Sampling rate was 256 Hz. Online filtering included 0.5-100 Hz bandpass and 50 Hz notch filters. Preprocessing involved bandpass filtering, notch filtering, and manual artifact rejection based on EOG. Participants performed five mental tasks (word association, mental subtraction, spatial navigation, right hand motor imagery, feet motor imagery) in a cue-guided paradigm with 7 seconds of continuous imagery per trial.",
+  "description": "This EEG dataset comprises recordings from 9 individuals with central nervous system damage (stroke and spinal cord injury) performing five mental imagery tasks: word association, mental subtraction, spatial navigation, right-hand motor imagery, and feet motor imagery. Participants completed two sessions of cue-guided imagery trials with visual stimuli, yielding 40 trials per subject. The dataset includes preprocessed 30-channel EEG data sampled at 256 Hz with auxiliary EOG channels, designed to support brain-computer interface research and motor function restoration applications.",
+  "methods_description": "EEG data were acquired from 30 active electrodes (g.LADYbird) using a 10-20 montage at 256 Hz sampling rate with g.tec hardware. Reference and ground were placed at left and right mastoids. Online filtering included 0.5-100 Hz bandpass and 50 Hz notch filters. Preprocessing involved bandpass filtering (0.5-100 Hz), notch filtering at 50 Hz, manual artifact rejection based on EOG, and re-referencing to mastoids. Participants performed five mental tasks (word association, mental subtraction, spatial navigation, right-hand imagery, feet imagery) in a cue-guided paradigm with 7 seconds of continuous imagery per trial.",
   "license": "CC-BY-NC-ND-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -29,13 +29,15 @@
       "term": "mental tasks"
     },
     {
-      "term": "stroke"
+      "term": "Stroke",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D020521"
     },
     {
       "term": "spinal cord injury"
     },
     {
-      "term": "motor imagery classification"
+      "term": "rehabilitation"
     }
   ],
   "related_identifiers": [
@@ -95,5 +97,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "e819645203b18584be48f0ec1d445c876a7994c4b579d0ab5c6f61d3dc2d294d"
+  "source_hash": "62c2772a49bb2eb78e3f23d54e034c2be8025fc5f336c211909d01ae349826c9"
 }
