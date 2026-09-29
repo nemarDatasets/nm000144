@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BNCI 2015-004 Mental tasks dataset",
-  "description": "This EEG dataset comprises recordings from 9 individuals with central nervous system damage (stroke and spinal cord injury) performing five mental imagery tasks: word association, mental subtraction, spatial navigation, right-hand motor imagery, and feet motor imagery. Participants completed two sessions of cue-guided imagery trials with visual stimuli, yielding 40 trials per subject. The dataset includes preprocessed 30-channel EEG data sampled at 256 Hz with auxiliary EOG channels, designed to support brain-computer interface research and motor function restoration applications.",
-  "methods_description": "EEG data were acquired from 30 active electrodes (g.LADYbird) using a 10-20 montage at 256 Hz sampling rate with g.tec hardware. Reference and ground were placed at left and right mastoids. Online filtering included 0.5-100 Hz bandpass and 50 Hz notch filters. Preprocessing involved bandpass filtering (0.5-100 Hz), notch filtering at 50 Hz, manual artifact rejection based on EOG, and re-referencing to mastoids. Participants performed five mental tasks (word association, mental subtraction, spatial navigation, right-hand imagery, feet imagery) in a cue-guided paradigm with 7 seconds of continuous imagery per trial.",
+  "description": "EEG recordings from nine end-users with central nervous system tissue damage (stroke or spinal cord injury) performing five cue-guided mental tasks: word association, mental subtraction, spatial navigation, right-hand motor imagery, and feet motor imagery. Data were recorded with 30 active EEG electrodes across two sessions per participant, on different days. The dataset supports brain-computer interface research on individually adapted imagery and binary classification of mental tasks.",
+  "methods_description": "30-channel EEG (g.tec g.LADYbird active electrodes, 10-20 montage) was sampled at 256 Hz with 0.5-100 Hz bandpass and 50 Hz notch filtering, plus two EOG channels. Each trial had a 1 s cue followed by 7 s of continuous mental imagery, without feedback. Sessions contained 8 blocks. Manual EOG-based artifact rejection was applied. Classification used LDA on bandpower features with 10-fold cross-validation.",
   "license": "CC-BY-NC-ND-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -17,13 +17,13 @@
   },
   "keywords": [
     {
+      "term": "EEG"
+    },
+    {
       "term": "brain-computer interface"
     },
     {
       "term": "motor imagery"
-    },
-    {
-      "term": "EEG"
     },
     {
       "term": "mental tasks"
@@ -37,7 +37,9 @@
       "term": "spinal cord injury"
     },
     {
-      "term": "rehabilitation"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     }
   ],
   "related_identifiers": [
@@ -60,21 +62,26 @@
       "identifier": "https://nemar.org/dataset/nm000144",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
   "funding_references": [
     {
-      "funder_name": "European Commission",
+      "funder_name": "FP7 EU Research Projects",
       "award_number": "247447",
       "award_title": "BrainAble"
     },
     {
-      "funder_name": "European Commission",
+      "funder_name": "FP7 EU Research Projects",
       "award_number": "287774",
       "award_title": "ABC"
     },
     {
-      "funder_name": "European Commission",
+      "funder_name": "FP7 EU Research Projects",
       "award_number": "288566",
       "award_title": "BackHome"
     }
@@ -85,7 +92,7 @@
     "eeg"
   ],
   "sizes": [
-    "2.9 GB (30 files)"
+    "2.74 GB (30 files)"
   ],
   "formats": [
     ".bdf",
